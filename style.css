@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right top, #774281, #f9b664, #09f8f9, rgb(255 255 255), #c74e6a);
 }
 
 html {
@@ -218,6 +219,7 @@ html {
 /* ICONS */
 
 .icon {
+  mix-blend-mode: multiply;
   cursor: pointer;
   height: 2rem;
 }
@@ -354,7 +356,7 @@ html {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   gap: 0.5rem;
 }
 
@@ -439,3 +441,5 @@ footer {
 footer p {
   text-align: center;
 }
+
+

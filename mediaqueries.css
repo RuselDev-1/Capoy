@@ -12,6 +12,7 @@
   }
 }
 
+
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -44,13 +45,21 @@
   }
   .about-containers {
     margin-top: 0;
+    position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-inline: 15vh;
+
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #contact,
   footer {
     height: 40vh;
+
+  
+  
   }
   #profile {
     height: 83vh;
@@ -67,6 +76,10 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    padding-inline: 4vh;
+    position: relative;
+    display: flex;
+   
   }
   .contact-info-container {
     margin: 0;
@@ -99,5 +112,13 @@
   }
   .text-container {
     text-align: justify;
+    padding-inline: 5vh;
   }
 }
+@media screen and (max-width: 600px) {
+  .btn-container{
+    display: flex;
+    flex-direction: none;
+  }
+  
+  }
