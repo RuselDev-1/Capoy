@@ -10,6 +10,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-image: linear-gradient(to right top, #774281, #f9b664, #09f8f9, rgb(255 255 255), #c74e6a);
+  
 }
 
 html {
@@ -158,6 +159,8 @@ section {
 }
 /* PROF */
 .mainprof{ border-radius: 50%;
+  box-shadow: -6px 0px 64px 39px, -6px 3px 27px 21px red;
+
 
 }
 /* ----- SMOOTH SCROLL ----- */
@@ -175,6 +178,7 @@ html {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  
 }
 
 .section__pic-container {
