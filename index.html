@@ -215,8 +215,10 @@
       </section>
   
       <footer class="footer">
-        <span class="footer-title">James Capoy</span>
-        <p>Copyright @2021 <a href="#">Coding Zakir</a>. All Rights Reserved.</p>
+        <p>Copyright @<span id="year"></span> <a href="#">Coding Zakir</a>. All Rights Reserved.</p>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
       </footer>
 
 
@@ -228,15 +230,7 @@
 
         window.addEventListener("scroll", function(){
     scrollBtn.classList.toggle("active", window.scrollY > 500);
-});
-
-//javascript for scroll back to top on click scroll-to-top button
-
-// document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
-//   document.body.scrollTop = 0;
-//   document.documentElement.scrollTop = 0;
-// });
-
+})
         const menuBtn = document.querySelector(".menu-btn");
         const navigation = document.querySelectorAll(".navigation");
         const navigationItems = document.querySelector(".navigation a");
