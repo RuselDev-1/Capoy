@@ -159,7 +159,7 @@
             </div>
             <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <div class="card-img">
-                <img src="image/work6.png" alt="">
+                    <img src="image/work6.png" alt="Work 6">
 
                 <img src="image/work1.png" alt="Work 1">
 <img src="image/work2.png" alt="Work 2">
@@ -241,7 +241,7 @@ const scrollBtn = document.querySelector(".scrollToTop-btn");
 const navigationItems = document.querySelectorAll(".navigation a");
 navigationItems.forEach((navigationItem) => {
     navigationItem.addEventListener("click", () => {
-        menuBtn.classList.remove("active");
+        const menuBtn = document.querySelector(".menu-btn");
         navigation.classList.remove("active");
     });
 });
