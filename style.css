@@ -103,7 +103,7 @@ section{
     font-size: 3em;
     font-weight: 700;
     line-height: 127%;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
 .animated-text h3:nth-child(1){
